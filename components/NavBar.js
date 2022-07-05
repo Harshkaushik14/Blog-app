@@ -10,9 +10,9 @@ const NavBar = () => {
 
 <div>
 <Link href="/">
-  {/* <img className='w-44 object-contain cursor-pointer' src="https://links.papareact.com/yvf" alt='logo' /> */}
-  <h2 className="w-44  cursor-pointer text-xl font-mono">Bloogier</h2>
+  <img className='w-44 h-44 hidden lg:inline-flex object-contain cursor-pointer' src="/codinglitlogo.png" alt='logo' />
 </Link>
+  <h2 className="w-44 lg:hidden  cursor-pointer text-xl font-bicubik">CL🔥</h2>
 </div>
 
 <div className='hidden md:inline-flex items-center space-x-5 cursor-pointer'>

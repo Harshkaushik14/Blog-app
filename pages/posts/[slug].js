@@ -2,7 +2,7 @@ import { GraphQLClient, gql } from "graphql-request";
 import NavBar from "../../components/NavBar";
 import Footer from "../../components/Footer";
 const graphcms = new GraphQLClient(
-  " "
+  " https://api-ap-south-1.graphcms.com/v2/cl4waj9dx268s01unefao1zg5/master "
 );
 
 const QUERY = gql`
@@ -59,6 +59,7 @@ export async function getStaticProps({ params }) {
 }
 export default function BlogPost({ post }) {
   return (
+    
       <main >
         <div className="max-w-7xl mx-auto">
           

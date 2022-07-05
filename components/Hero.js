@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Hero = () => {
@@ -13,7 +14,7 @@ const Hero = () => {
 Main motive of this website is to provide better resources so that students  should not waste time for looking resources to study.</p>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+      <Image className="object-cover object-center rounded" width={750} height={600} alt="hero" src="/mainContact.png"/>
     </div>
   </div>
 </section>
