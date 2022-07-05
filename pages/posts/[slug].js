@@ -65,12 +65,12 @@ export default function BlogPost({ post }) {
           
        
       <NavBar/>
-        <img className="w-full h-72 object-cover" src={post.coverPhoto.url} alt="" />
+        <Image className="w-full h-72 object-cover" src={post.coverPhoto.url} alt="" />
         <div className="max-w-3xl mx-auto p-5">
         <h1 className=" lg:text-3xl mt-10 ">{post.title}</h1>
        
           <div  className="flex items-center space-x-2 mt-10">
-<img className="h-10 w-10 rounded-full shadow-lg" src={post.author.avatar.url} alt="" />
+<Image className="h-10 w-10 rounded-full shadow-lg" src={post.author.avatar.url} alt="" />
   <p className="font-extralight text-sm">posted by <span className="text-blue-400 font-bold">{post.author.name}</span> - Published at {post.datePublished}</p>
   </div>
 <div className="text-xl font-light mt-5 space-y-10" dangerouslySetInnerHTML={{__html: post.content.html }}></div>
