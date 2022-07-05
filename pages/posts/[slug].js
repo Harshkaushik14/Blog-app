@@ -1,6 +1,5 @@
 import { GraphQLClient, gql } from "graphql-request";
 import NavBar from "../../components/NavBar";
-import Image from "next/image";
 import Footer from "../../components/Footer";
 const graphcms = new GraphQLClient(
   " https://api-ap-south-1.graphcms.com/v2/cl4waj9dx268s01unefao1zg5/master "
@@ -66,12 +65,12 @@ export default function BlogPost({ post }) {
           
        
       <NavBar/>
-        <Image className="w-full h-72 object-cover" src={post.coverPhoto.url} alt="" />
+        <img className="w-full h-72 object-cover" src={post.coverPhoto.url} alt="" />
         <div className="max-w-3xl mx-auto p-5">
         <h1 className=" lg:text-3xl mt-10 ">{post.title}</h1>
        
           <div  className="flex items-center space-x-2 mt-10">
-<Image className="h-10 w-10 rounded-full shadow-lg" src={post.author.avatar.url} alt="" />
+<img className="h-10 w-10 rounded-full shadow-lg" src={post.author.avatar.url} alt="" />
   <p className="font-extralight text-sm">posted by <span className="text-blue-400 font-bold">{post.author.name}</span> - Published at {post.datePublished}</p>
   </div>
 <div className="text-xl font-light mt-5 space-y-10" dangerouslySetInnerHTML={{__html: post.content.html }}></div>
