@@ -1,5 +1,6 @@
 import { GraphQLClient, gql } from "graphql-request";
 import NavBar from "../../components/NavBar";
+import Image from "next/image";
 import Footer from "../../components/Footer";
 const graphcms = new GraphQLClient(
   " https://api-ap-south-1.graphcms.com/v2/cl4waj9dx268s01unefao1zg5/master "
