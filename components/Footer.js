@@ -112,7 +112,7 @@ const Footer = () => {
 
   <div className="text-center p-4  bg-[rgba(0, 0, 0, 0.2)]">
     © 2022 Copyright:
-    <a className="text-whitehite" href="https://tailwind-elements.com/"> Bloogier</a>
+    <a className="text-whitehite" href="https://codinglit.netlify.com/"> CODINGLIT🔥</a>
   </div>
 </footer>
       </div>
