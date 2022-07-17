@@ -27,7 +27,7 @@ const NavBar = () => {
     <div className=" hidden lg:flex items-center cursor-not-allowed space-x-5 text-blue-500">
  
 
-<div className='search'>
+<div className='search hidden'>
 <form>   
     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-gray-300">Search</label>
     <div class="relative">
