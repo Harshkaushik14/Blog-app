@@ -8,12 +8,12 @@ export default function About() {
       <div className="max-w-7xl mx-auto ">
 
         <div>
-<Hero/>
+          <Hero />
           <section className="text-gray-600 body-font">
             <div className="container px-5 py-10 mx-auto">
               <div className="text-center mb-20">
-              <h1 className="sm:text-3xl text-2xl mt-20 font-medium text-center title-font text-gray-900 mb-4">
-                 How we will be helping?
+                <h1 className="sm:text-3xl text-2xl mt-20 font-medium text-center title-font text-gray-900 mb-4">
+                  How we will be helping?
                 </h1>
 
               </div>
@@ -33,7 +33,7 @@ export default function About() {
                       <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                     <span className="title-font font-medium">
-                     Daily Usefull Articles
+                      Daily Usefull Articles
                     </span>
                   </div>
                 </div>
@@ -128,7 +128,7 @@ export default function About() {
                       <path d="M22 4L12 14.01l-3-3"></path>
                     </svg>
                     <span className="title-font font-medium">
-                    Interview Preparation
+                      Interview Preparation
                     </span>
                   </div>
                 </div>
@@ -137,7 +137,7 @@ export default function About() {
           </section>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </main>
   );
 }
